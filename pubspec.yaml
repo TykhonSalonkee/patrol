@@ -1,8 +1,17 @@
 name: location_workspace
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ">=3.3.0 <4.0.0"
 
 dev_dependencies:
   melos: ^3.1.1
   patrol: ^3.12.0
+
+patrol:
+  app_name: My App
+  android:
+    package_name: pl.leancode.patrol.e2e_app
+  ios:
+    bundle_id: pl.leancode.patrol.e2eApp
+  macos:
+    bundle_id: pl.leancode.patrol.macos.e2eApp
